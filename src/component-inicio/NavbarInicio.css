@@ -1,0 +1,25 @@
+.back-title-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #023373;
+}
+
+.title-inicio {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5em;
+    padding: 0;
+    text-shadow: 0px 0px 5px #508AD3;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Oswald",Sans-serif;
+}
+
+.tag-inicio {
+    color: #04D976;
+}

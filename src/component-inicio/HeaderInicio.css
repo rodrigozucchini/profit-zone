@@ -1,0 +1,41 @@
+.back-header-inicio {
+    width: 100%;
+    height: auto;
+    background: #023373;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-inicio {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.video-player-video {
+}
+
+@media only screen and (max-width: 1700px) {
+    .header-inicio {
+      display: relative;
+      width: 95%;
+      height: auto; 
+      position: relative;
+    }
+  }
+
+  .text-inicio {
+    margin-top: 10px;
+    color: #f3db59;
+    line-height: 140%;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
