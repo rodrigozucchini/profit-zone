@@ -3,14 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #023373;
+    background: #030f26;
 }
 
 .title-inicio {
     text-align: center;
     color: white;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 900;
     line-height: 1.5em;
     padding: 0;
     text-shadow: 0px 0px 5px #508AD3;

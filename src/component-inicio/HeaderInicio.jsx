@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player';
 
 
 const HeaderInicio = () => {
-  const videoUrl = 'https://youtu.be/0hb9FKKi244';
+  const videoUrl = 'https://www.youtube.com/watch?v=Fdns_GzFqFo';
 
   return (
     <div className="back-header-inicio">
@@ -18,7 +18,6 @@ const HeaderInicio = () => {
         />
     </div>
     <p className="text-inicio">
-        Descubre nuestra metodología de enseñanza. <br/>
         ¡Haz clic para ver el video ahora!<br/>
     </p>
     </div>
