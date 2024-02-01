@@ -5,7 +5,7 @@ const NavbarInicio = () => {
   return (
     <div className='back-title-inicio'>
         <p className='title-inicio'>
-          SOMOS PROFIT ZONE
+          SOMOS PROFIT ZONE 
         </p>
     </div>
   )

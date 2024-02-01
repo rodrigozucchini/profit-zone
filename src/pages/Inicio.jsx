@@ -6,6 +6,7 @@ import Telegram from '../component-inicio/Telegram'
 import Testimonio from '../component-inicio/Testimonio'
 import Hotmart from '../component-inicio/Hotmart'
 import Wave from '../component-global/Wave'
+import Broke from '../component-inicio/Broke'
 
 const Inicio = () => {
   return (
@@ -17,6 +18,7 @@ const Inicio = () => {
       <Hotmart />
       <Testimonio />
       <Telegram />
+      <Broke />
     </div>
   )
 }

@@ -19,6 +19,7 @@ const HeaderInicio = () => {
     </div>
     <p className="text-inicio">
         ¡Haz clic para ver el video ahora!<br/>
+        El lugar para obtener conocimiento 100% gratuito 🧠
     </p>
     </div>
   );

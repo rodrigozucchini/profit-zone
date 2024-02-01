@@ -11,7 +11,7 @@ const Testimonio = () => {
   return (
     <>
     <div className="backgroundc-testimonio">
-        <h1 className='testimonio-title'>TESTIMONIO</h1>
+        <h1 className='testimonio-title'>TESTIMONIOS</h1>
         <div className='backc-testimonio'>
             <div className='cardc-testimonio'>
                 <img className="imagec-testimonio" src={Testimonio1} />
@@ -28,12 +28,12 @@ const Testimonio = () => {
         </div>
         <div className='backc-testimonio'>
             <div className='cardc-testimonio'>
-                <img className="imagec-testimonio" src={Testimonio4} />
-                <p className='pc-testimonio'>“Gracias a los consejos <br/>obtuve resultados”</p>
-            </div>
-            <div className='cardc-testimonio'>
                 <img className="imagec-testimonio" src={Testimonio5} />
                 <p className='pc-testimonio'>“Un grupo excelente”</p>
+            </div>
+            <div className='cardc-testimonio'>
+                <img className="imagec-testimonio" src={Testimonio4} />
+                <p className='pc-testimonio'>“Gracias a los consejos <br/>obtuve resultados”</p>
             </div>
             <div className='cardc-testimonio'>
                 <img className="imagec-testimonio" src={Testimonio6} />

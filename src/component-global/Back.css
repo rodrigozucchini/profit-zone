@@ -1,0 +1,17 @@
+img.btn-back {
+    display: block;
+    position: fixed;
+    z-index: 999;
+    top: 40px;
+    left: 20px;
+    cursor: pointer;
+    border-radius:50px;
+    }
+
+img.btn-back:hover{
+    border-radius:50px !important;
+    -webkit-box-shadow: 0px 0px 15px 0px black; 
+    -moz-box-shadow: 0px 0px 15px 0px black;
+    box-shadow: 0px 0px 15px 0px black;
+    transition-duration: 1s;
+} 
