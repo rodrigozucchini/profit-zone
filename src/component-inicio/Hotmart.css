@@ -41,3 +41,29 @@
     height: auto;
     border-radius: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .title-hotmart {
+        text-align: center;
+        color: #030f26;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 1.5em;
+        padding: 0;
+        letter-spacing: 3px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: "Oswald",Sans-serif;
+        text-transform: uppercase;
+    }
+    .modulo-base{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: auto;
+        border-radius: 20px;
+    }
+    
+    }

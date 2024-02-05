@@ -90,6 +90,19 @@
     justify-content:space-evenly; /* Centra horizontalmente las tarjetas */
     align-items: center; /* Centra verticalmente las tarjetas */
   }
+  .testimonio-title {
+    font-size: 40px;
+    text-align: center;
+  }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .testimonio-title {
+      font-size: 30px;
+      text-align: center;
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
 
   @media only screen and (max-width: 630px) {

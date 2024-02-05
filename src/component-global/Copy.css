@@ -1,6 +1,5 @@
 .copy-div {
-    background: rgb(242,242,240);
-    background: linear-gradient(0deg, rgba(242,242,240,1) 25%, rgba(255,255,255,1) 100%);
+    background: #ffffff;    
     width: 100%;
     height: 100%;
     display: flex;
@@ -43,6 +42,21 @@
     line-height: 1.5;
     border-radius: 5px;
     text-align: justify;
+}
+
+.back-visa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.visa {
+    margin-top: 20px;
+    width: 600px;
+    border: 1px solid #011126;
+    margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 1205px) {
@@ -88,6 +102,13 @@
         margin-top: 50px;
     }
 
+    .visa {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 80%;
+        border: 1px solid #011126;
+    }
+    
 }
 
 @media only screen and (max-width: 600px) {

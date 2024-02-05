@@ -1,5 +1,7 @@
 import React from 'react';
 import './Copy.css';
+import Visa from '../assets/visa.svg'
+import Button2 from './Button2';
 
 const Copy = () => {
   return (
@@ -26,7 +28,17 @@ const Copy = () => {
             <b>No necesitas</b> ser un experto en trading.
             <br />
         </p>
+        <p className='cuarto-copy'>
+            Ademas contamos con...
+            <br />
+            <b>La única</b> tarjeta para acceder a tus ganancias de trading en Latinoamérica
+            <br />
+        </p>
+        <div className='back-visa'>
+          <img src={Visa} className='visa'/>
+        </div>
     </div>
+    <Button2 />
     </div>
   )
 }
