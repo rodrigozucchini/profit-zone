@@ -4,8 +4,8 @@ import './ButtonHeader.css';
 const ButtonHeader = () => {
   return (
     <div className="button-div-call-header">
-        <a className="button-call-header" href="https://t.me/+NW9H7JmyRIhiMGMx" target="_blank">
-        ¡Quiero unirme a Telegram!
+        <a className="button-call-header" href="https://chat.whatsapp.com/CgWzJRmlD5XJFNBniotRK2" target="_blank">
+        ¡Quiero unirme a Whatsapp!
         </a>
     </div>
   )
