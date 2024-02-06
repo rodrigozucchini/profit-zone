@@ -6,12 +6,26 @@ import Testimonio4 from '../assets/Testimonio4.jpeg'
 import Testimonio5 from '../assets/Testimonio5.jpeg'
 import Testimonio6 from '../assets/Testimonio6.jpeg'
 import './Testimonio.css'
+import ReactPlayer from 'react-player';
 
 const Testimonio = () => {
+
+    const urlTestimonio = "https://www.youtube.com/shorts/PrbeayIvvcc";
+
   return (
     <>
     <div className="backgroundc-testimonio">
         <h1 className='testimonio-title'>TESTIMONIOS</h1>
+
+        <div className='video-player-video-test'>
+        <ReactPlayer
+            width="1000px"
+            height="500px"
+            controls={true} 
+            url={urlTestimonio}
+        />
+        </div>
+
         <div className='backc-testimonio'>
             <div className='cardc-testimonio'>
                 <img className="imagec-testimonio" src={Testimonio1} />

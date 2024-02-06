@@ -15,9 +15,18 @@
     /* No repite */
     background-repeat: no-repeat;
     /* Otras propiedades para el contenedor, como altura mínima */
-    min-height: 100vh;
+    height: auto;
     margin: 0;
     padding: 0;
+  }
+
+  .video-player-video-test{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+
   }
 
   .testimonio-title {
