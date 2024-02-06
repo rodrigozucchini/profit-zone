@@ -21,8 +21,8 @@ const Testimonio = () => {
         <ReactPlayer
             width="1000px"
             height="500px"
-            controls={true} 
             url={urlTestimonio}
+            className="div-video-player-video-test"
         />
         </div>
 

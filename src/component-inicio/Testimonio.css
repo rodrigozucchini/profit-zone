@@ -29,8 +29,14 @@
 
   }
 
+  .div-video-player-video-test{
+    border: 1px solid #030f26;
+    padding: 10px;
+    margin: 20px;
+  }
+
   .testimonio-title {
-    color: #030f26;;
+    color: #030f26;
     font-family: helvetica,sans-serif;
     font-size: 50px;
     font-weight: 900;
@@ -111,6 +117,9 @@
       text-align: center;
       margin-left: 0;
       margin-right: 0;
+    }
+    .video-player-video-test{
+      margin-top: 20px;
     }
   }
 
